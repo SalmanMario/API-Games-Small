@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Sectiune PC -->
+    <section class="container pc-container">
+      <h1 class="text-center pb-3 pc-text-color">World of Games</h1>
+      <h3 class="text-center pc-text-color">
+        Bine ati venit pe site-ul nostru! Te-ai gandit vreodata care sunt cele mai populare jocuri? Ei bine,expertii
+        nostri au analizat o gama variata de jocuri pentru mai multe platforme si au facut un top 6 cu cele mai bune si
+        interesante jocuri, daca vrei sa le descoperi,te invitam sa dai scroll in jos
+      </h3>
+      <div id="imagePc" class="text-center p-3 pc-text-color"></div>
+      <div id="pcGames" class="games-section pc-text-color"></div>
+    </section>
+    <!-- Sectiune PS5 -->
+    <section class="container ps5-container">
+      <h3 class="text-center ps5-text-color p-4">
+        In data de 20 noiembrie 2020, Playstation 5 a aparut pe piata,asa ca iata o lista cu cele mai populare jocuri in
+        momentul de fata
+      </h3>
+      <div id="imagePs5" class="text-center p-3"></div>
+      <div id="ps5Games" class="ps5-text-color games-section"></div>
+    </section>
+    <!-- Sectiune XboxOne -->
+    <section class="container xboxOne-container">
+      <h3 class="text-center p-4 xboxOne-text-color">
+        xboxOne ramane una dintre cele mai apreciate console din ziua de astazi,asa ca specialistii nostrii au facut si
+        aici un top 6 cu cele mai interesante jocuri
+      </h3>
+      <div id="xboxImage" class="text-center p-3 xboxOne-text-color"></div>
+      <div id="xboxOneGames" class="games-section"></div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./sections/xboxone.js"></script>
+    <script src="./sections/pcgames.js"></script>
+    <script src="./sections/ps5games.js"></script>
+    <script src="./services/apiService.js"></script>
+    <script src="./services/utils.js"></script>
+    <script src="./sections/pcgames.js"></script>
+    <!-- Ultimul -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+html,
+body {
+  background-color: wheat;
+}
+
+img {
+  max-width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.pc-text-color {
+  color: #feffea;
+}
+
+.ps5-text-color {
+  color: #bee7f4;
+}
+
+.games-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.games-section p {
+  font-size: 1.1rem;
+}
+
+.pc-container {
+  background-color: #262626;
+}
+
+.paragraph-size {
+  font-size: 1.3rem;
+}
+
+.ps5-container {
+  background-color: #00439c;
+}
+
+.xboxOne-container {
+  background-color: #107c0f;
+}
+
+.xboxOne-text-color {
+  color: #ffffff;
+}
+
+@media (max-width: 800px) {
+  .games-section {
+    flex-direction: column;
+  }
+}
