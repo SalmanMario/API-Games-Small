@@ -1,6 +1,6 @@
 getListOfGamesPc();
 getListOfGamesPs5();
-getListOfGamesXboxOne();
+getListOfGamesXboxSeries();
 
 
 // fetch(`https://api.rawg.io/api/platforms?key=${API_KEY}`)
